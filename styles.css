@@ -1,0 +1,53 @@
+html {}
+
+body {
+  background-color: lightgreen;
+  font-size: 30px;
+}
+
+.parent-to-h1 {}
+
+h1 {
+  color: darkgreen;
+  /*font-size: 1.7rem;*/
+}
+
+.parent-to-first-p {
+  /*font-size: 20px;*/
+}
+
+.all-p-s {
+  /*font-size: 20px;*/
+}
+
+p.first-p {
+  /*font-size: 120%;*/
+  /*font-size: 1.2em;*/
+  /*font-size: 1.2rem;*/
+}
+
+p.sizename {
+  font-size: small;
+}
+
+p.procent {
+  font-size: 120%;
+}
+
+p.em {
+  font-size: 1.2em;
+}
+
+p.rem {
+  font-size: 1.4rem;
+}
+
+.parent-to-img {
+  width: 50%;
+  border: 2px blue solid;
+}
+
+img {
+  width: 50vw;
+  /*width: 50%;*/
+}
